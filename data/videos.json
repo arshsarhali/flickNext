@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "jT4HgPAhRhcyfcTUFpaYrVieYU8",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "CA",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Zq4-yoWLzVXhSdGB9bjLP5Sw68U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EJA5qwMu5_4"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-20T14:00:00Z",
+        "channelId": "UCWOA1ZGywLbqmigxE4Qlvuw",
+        "title": "New on Netflix Canada | August 2022",
+        "description": "The Sandman, Locke & Key season 3, Never Have I Ever season 3, Day Shift, Me Time - Here's what's coming to Netflix Canada ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EJA5qwMu5_4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EJA5qwMu5_4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EJA5qwMu5_4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-20T14:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hrYXRM1tEKiz3HiKuHGIQKXN7NA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "sBEvEcpnG7k"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-21T14:00:00Z",
+        "channelId": "UChmpTxQ0Gp8KEJKsqzeg9Lg",
+        "title": "Stranger Things 4 | Volume 2 Trailer | Netflix",
+        "description": "It might not work out for us this time. The epic 2-part season finale of Stranger Things 4 premieres July 1st, only on Netflix.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sBEvEcpnG7k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sBEvEcpnG7k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sBEvEcpnG7k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Stranger Things",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-21T14:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LaPm_3D4bWEAKQMQ4cTsuWqRVO0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JkaxUblCGz0"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-17T13:00:04Z",
+        "channelId": "UCWOA1ZGywLbqmigxE4Qlvuw",
+        "title": "Our Planet | Forests | FULL EPISODE | Netflix",
+        "description": "Experience our planet's natural beauty and examine how climate change impacts all living creatures in this ambitious ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JkaxUblCGz0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JkaxUblCGz0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JkaxUblCGz0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-17T13:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5oXI4iQanIe7dKVtUFKH_zUnQGI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vZgnGwyOO2s"
+      },
+      "snippet": {
+        "publishedAt": "2021-01-26T19:48:07Z",
+        "channelId": "UC_UJdqZuFhRXfeYXYrhwgJA",
+        "title": "Making Of &quot;Meet The Super Kids&quot; Scene | We Can Be Heroes | Netflix",
+        "description": "A Film Club exclusive look at how the “Meet the Super Kids” scene in Robert Rodriguez's We Can Be Heroes, was filmed.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vZgnGwyOO2s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vZgnGwyOO2s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vZgnGwyOO2s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix Film",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-01-26T19:48:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tMrJeEz9Fnk4qRY0-XO9OKa2P4A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2cJA8ggRxJk"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-22T12:30:02Z",
+        "channelId": "UCZSNzBgFub_WWil6TOTYwAg",
+        "title": "Tale Of A Killer | Indian Predator : The Butcher Of Delhi | Netflix India #shorts",
+        "description": "What happens when a serial killer challenges the system? It's about time we find out. Watch one of the most gripping murder ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2cJA8ggRxJk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2cJA8ggRxJk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2cJA8ggRxJk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix India",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-22T12:30:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2Nh37Beu5f3IZdqYz2gCa7HcI1c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BmllggGO4pM"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-24T13:30:18Z",
+        "channelId": "UCWOA1ZGywLbqmigxE4Qlvuw",
+        "title": "THE GRAY MAN | Official Trailer | Netflix",
+        "description": "Ryan Gosling is THE GRAY MAN and Chris Evans is his psychopathic adversary in the Netflix/AGBO spy thriller directed by ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BmllggGO4pM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BmllggGO4pM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BmllggGO4pM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-24T13:30:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "914gVy3ysGPi0yGYsfG8CLq5gMk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Fz7HmgPJQak"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-14T13:00:00Z",
+        "channelId": "UCWOA1ZGywLbqmigxE4Qlvuw",
+        "title": "Persuasion starring Dakota Johnson | Official Trailer | Netflix",
+        "description": "Living with her snobby family on the brink of bankruptcy, Anne Elliot is an unconforming woman with modern sensibilities.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Fz7HmgPJQak/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Fz7HmgPJQak/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Fz7HmgPJQak/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-14T13:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IGLCIa0KVE__A6dc8tm1CJBEvb8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Zl_dTUsrU9s"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-21T14:00:02Z",
+        "channelId": "UCZoC-XeDO7HxbAdeCaRPPCw",
+        "title": "Stranger Things 4 | Volume 2 Trailer | Netflix",
+        "description": "It might not work out for us this time. The epic 2-part season finale of Stranger Things 4 premieres 1st July, only on Netflix.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Zl_dTUsrU9s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Zl_dTUsrU9s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Zl_dTUsrU9s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix Asia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-21T14:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "offWi__55tugTi-BPyE58b3EBWg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WiSURNN4azk"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-11T14:00:00Z",
+        "channelId": "UCc1l5mTmAv2GC_PXrBpqyKQ",
+        "title": "Dupla Jornada | Jamie Foxx, Dave Franco e Snoop Dogg | Trailer oficial | Netflix",
+        "description": "Na Netflix em 12 de agosto. Jamie Foxx interpreta um pai de família que só quer proporcionar uma boa vida para sua filha.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WiSURNN4azk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WiSURNN4azk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WiSURNN4azk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix Brasil",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-11T14:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZvGuCnOeIMw_6wG8juucgK_gBgY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "sTj-jHfhdzo"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-19T14:30:00Z",
+        "channelId": "UCWOA1ZGywLbqmigxE4Qlvuw",
+        "title": "Untold: The Girlfriend Who Didn&#39;t Exist | Official Trailer | Netflix",
+        "description": "Born into a Hawaiian paradise, All-American football standout Manti Te'o leads a simple life summed up in just three words: faith, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sTj-jHfhdzo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sTj-jHfhdzo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sTj-jHfhdzo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-19T14:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JWPItmDU_9PigLPPFnBRwCBAQxI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8LOx5sD1okU"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-19T15:00:00Z",
+        "channelId": "UCWOA1ZGywLbqmigxE4Qlvuw",
+        "title": "Look Both Ways | Official Trailer | Netflix",
+        "description": "Lili Reinhart stars as Natalie, a young woman whose life diverges into two different paths on the night of her college graduation.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8LOx5sD1okU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8LOx5sD1okU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8LOx5sD1okU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-19T15:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1hoO5HGWIhNramahEFZidsTUo4g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cTQ3Ko9ZKg8"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-17T13:00:02Z",
+        "channelId": "UCWOA1ZGywLbqmigxE4Qlvuw",
+        "title": "Our Planet | Frozen Worlds | FULL EPISODE | Netflix",
+        "description": "Experience our planet's natural beauty and examine how climate change impacts all living creatures in this ambitious ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cTQ3Ko9ZKg8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cTQ3Ko9ZKg8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cTQ3Ko9ZKg8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-17T13:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RH52Wyx5l_aIFyWUK4um7hUyGtI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "n2aXSpp-TXY"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-18T15:00:34Z",
+        "channelId": "UChmpTxQ0Gp8KEJKsqzeg9Lg",
+        "title": "Stranger Things 4 | Becoming Vecna: A Behind the Scenes Look | Netflix",
+        "description": "Screams in demogorgon: Get a behind the scenes look at the making of VECNA featuring Jamie Campbell Bower, Barrie Gower, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/n2aXSpp-TXY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/n2aXSpp-TXY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/n2aXSpp-TXY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Stranger Things",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-18T15:00:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GiwRdiaA48PVKJX-4J9RLi73JDw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "trImRdGtKlE"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-21T14:00:04Z",
+        "channelId": "UCwAiG5lj7w24SbgPy6eiYvg",
+        "title": "Stranger Things 4 | Zwiastun części 2 | Netflix",
+        "description": "Tym razem może się nam nie udać. Epicki dwuczęściowy finał „Stranger Things 4” już 1 lipca — tylko na Netflix. Subskrybuj: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/trImRdGtKlE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/trImRdGtKlE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/trImRdGtKlE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix Polska",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-21T14:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "G-kAuwaSIiR2ArKVQvLN7ONY4og",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GN_IwBptKi4"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-11T14:00:02Z",
+        "channelId": "UCWOA1ZGywLbqmigxE4Qlvuw",
+        "title": "Day Shift | Jamie Foxx, Dave Franco, and Snoop Dogg | Official Trailer | Netflix",
+        "description": "On Netflix August 12. Jamie Foxx stars as a hard working blue collar dad who just wants to provide a good life for his quick-witted ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GN_IwBptKi4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GN_IwBptKi4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GN_IwBptKi4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-11T14:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yPE-YxV1_hmQbBRBkj4xeSvQ0yU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BfsNfFoA0J0"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-17T14:01:02Z",
+        "channelId": "UCWOA1ZGywLbqmigxE4Qlvuw",
+        "title": "Spiderhead | Chris Hemsworth | Official Trailer | Netflix",
+        "description": "Two inmates (Miles Teller & Jurnee Smollett) form a connection while grappling with their pasts in a state-of-the-art penitentiary ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BfsNfFoA0J0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BfsNfFoA0J0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BfsNfFoA0J0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-17T14:01:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WW3Wf2zjjqdp8B8aE2-M5KklMpo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1hWE2ZJxb4c"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-13T15:00:00Z",
+        "channelId": "UCWOA1ZGywLbqmigxE4Qlvuw",
+        "title": "Boo, Bitch | Official Trailer | Netflix",
+        "description": "Something bitchy this way comes. The new series starring Lana Condor comes to Netflix on July 8. Watch Boo, Bitch, only on ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1hWE2ZJxb4c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1hWE2ZJxb4c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1hWE2ZJxb4c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-13T15:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AeortgwKT65S0A4njBpf0gbu0Ps",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ec-EIWNGAZc"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-30T21:05:36Z",
+        "channelId": "UCWOA1ZGywLbqmigxE4Qlvuw",
+        "title": "Watch This Before Stranger Things 4 Volume 2 | Netflix",
+        "description": "The clock is ticking on the premiere of Stranger Things 4 Volume 2. Watch this recap before venturing back into the Upside Down ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ec-EIWNGAZc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ec-EIWNGAZc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ec-EIWNGAZc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-30T21:05:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "z1icgGlrJg2Wh3mi8DfUR-nf5aw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "i9inu6BA22A"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-19T20:00:10Z",
+        "channelId": "UCc1l5mTmAv2GC_PXrBpqyKQ",
+        "title": "Bastidores de Stranger Things: Nascimento do Vecna | Netflix Brasil",
+        "description": "Jamie Campbell Bower fala sobre ser escolhido para interpretar o Vecna, e revela mais dos bastidores da quarta temporada de ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/i9inu6BA22A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/i9inu6BA22A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/i9inu6BA22A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix Brasil",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-19T20:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PjsZ2QgniPPg-z3Ld4SBm4eHkYY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "d0JYlUTbv1A"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-21T14:00:04Z",
+        "channelId": "UC5ZiUaIJ2b5dYBYGf5iEUrA",
+        "title": "Stranger Things 4 | Volumen 2: Tráiler | Netflix",
+        "description": "Puede que no nos salga bien esta vez. El colosal final de temporada en dos partes de «Stranger Things» se estrena el 1.º de julio ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/d0JYlUTbv1A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/d0JYlUTbv1A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/d0JYlUTbv1A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix Latinoamérica",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-21T14:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AQ1EFjdeJznjQ_Mp05iYV-GwMzo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZKX5PW2cZwo"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-14T12:42:28Z",
+        "channelId": "UCmFeOdJI3IXgTBDzqBLD8qg",
+        "title": "Why Netflix Is Collapsing: The Coming Netflix Crisis",
+        "description": "Thanks to Established Titles for sponsoring today's video. Go to https://establishedtitles.com/moon10 using code Moon10 to get an ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZKX5PW2cZwo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZKX5PW2cZwo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZKX5PW2cZwo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Moon",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-14T12:42:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "V3jy9RwO4aaFLb4ElSV1iPkgSAM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WTLgg8oRSBE"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-12T15:00:00Z",
+        "channelId": "UCWOA1ZGywLbqmigxE4Qlvuw",
+        "title": "Purple Hearts | Official Trailer | Netflix",
+        "description": "In spite of their many differences, Cassie (Sofia Carson), a struggling singer-songwriter, and Luke (Nicholas Galitzine), a troubled ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WTLgg8oRSBE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WTLgg8oRSBE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WTLgg8oRSBE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-12T15:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "69hVc4IBUTogYibmST0H_mZZlcs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7zPPxWlFgS8"
+      },
+      "snippet": {
+        "publishedAt": "2020-12-27T16:00:00Z",
+        "channelId": "UCGie8GMlUo3kBKIopdvumVQ",
+        "title": "Guppy&#39;s Best Moments | We Can Be Heroes | Netflix",
+        "description": "Here's your roundup of the best moments of Guppy (Vivien Lyra Blair) from We Can Be Heroes. As the daughter of Sharkboy and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7zPPxWlFgS8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7zPPxWlFgS8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7zPPxWlFgS8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Still Watching Netflix",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-12-27T16:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CPNT9dV2IYeqraEHfZj0gobQDEg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ulPHag30btQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-18T00:00:00Z",
+        "channelId": "UCWOA1ZGywLbqmigxE4Qlvuw",
+        "title": "Carter | Official Trailer | Netflix",
+        "description": "A man with no memory Has only one mission to complete Witness nonstop, real-time action In this extreme action spectacular ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ulPHag30btQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ulPHag30btQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ulPHag30btQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-18T00:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YCVFJ-WkMaLEs4IpW3m3IzXgPWU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MX6wAGuIMCg"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-15T16:00:02Z",
+        "channelId": "UCWOA1ZGywLbqmigxE4Qlvuw",
+        "title": "HELLO, GOODBYE, AND EVERYTHING IN BETWEEN | Official Trailer | Netflix",
+        "description": "After making a pact to break up before college, Clare (Talia Ryder) and Aidan (Jordan Fisher) spend their last evening as a couple ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MX6wAGuIMCg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MX6wAGuIMCg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MX6wAGuIMCg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-15T16:00:02Z"
+      }
+    }
+  ]
+}
