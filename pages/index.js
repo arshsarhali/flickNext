@@ -7,6 +7,7 @@ import NabBar from '../components/nav/navbar'
 import SectionCard from '../components/card/section-cards'
 import { getVideos, getPopularVideos } from '../lib/videos'
 
+
 export async function getServerSideProps(){
 
   const netflixVideos = await getVideos('netflix');
@@ -29,7 +30,7 @@ export default function Home({netflixVideos, technologyVideos, trailerVideos, po
       </Head>
 
 <div className={styles.main}>
-    <NabBar username='arsh@gmail.conm' />
+    <NabBar/>
 
      <Banner title='Peaky Blinders' subTitle='Season 4' imgUrl='/static/peaky_blinders.webp'/>
 
