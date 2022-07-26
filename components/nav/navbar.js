@@ -6,7 +6,7 @@ import styles from './navbar.module.css'
 import magic from '../../lib/magic-client';
 import { useEffect, useState } from 'react';
 
-const NabBar = () =>{
+const NavBar = () =>{
     const router = useRouter();
 
     const [showDropDown, setShowDropDown] = useState(false)
@@ -91,4 +91,4 @@ const NabBar = () =>{
     )
 }
 
-export default NabBar
+export default NavBar

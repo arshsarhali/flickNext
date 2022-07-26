@@ -3,7 +3,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 import Banner from '../components/banner/banner'
-import NabBar from '../components/nav/navbar'
+import NavBar from '../components/nav/navbar'
 import SectionCard from '../components/card/section-cards'
 import { getVideos, getPopularVideos } from '../lib/videos'
 
@@ -30,9 +30,9 @@ export default function Home({netflixVideos, technologyVideos, trailerVideos, po
       </Head>
 
 <div className={styles.main}>
-    <NabBar/>
+    <NavBar/>
 
-     <Banner title='Peaky Blinders' subTitle='Season 4' imgUrl='/static/peaky_blinders.webp'/>
+     <Banner title='Peaky Blinders' subTitle='Season 4' videoId='whgdkjDJAjg' imgUrl='/static/peaky_blinders.webp'/>
 
      <div className={styles.sectionWrapper}>
     <SectionCard title='New on Netflix' videos={netflixVideos} size='large' />
