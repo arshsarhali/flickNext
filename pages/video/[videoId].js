@@ -8,7 +8,7 @@ import cls from 'classnames'
 import NavBar from '../../components/nav/navbar'
 import Like from '../../components/icons/like-icon'
 import DisLike from '../../components/icons/dislike-icon'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 Modal.setAppElement('#__next')
 export async function getStaticProps(context) {
@@ -44,14 +44,63 @@ const Video = ({ video }) => {
 
 	const [toggleDislike, setToggleDislike] = useState(false)
 
-	const handleToggleLike = () => {
-		setToggleLike(!toggleLike)
-		setToggleDislike(toggleLike)
+	useEffect(() => {
+		const getFavourited = async () => {
+			const response = await fetch(`/api/stats?videoId=${videoId}`, {
+				method: 'GET',
+			})
+
+			const data = await response.json()
+
+			if (data.length > 0) {
+				const favourited = data[0].favourited
+
+				if (favourited == 2) {
+					setToggleLike(true)
+					setToggleDislike(false)
+				} else if (favourited == 1) {
+					setToggleLike(false)
+					setToggleDislike(true)
+				} else {
+					setToggleLike(false)
+					setToggleDislike(false)
+				}
+			}
+		}
+
+		getFavourited()
+	}, [videoId])
+
+	const runRatingService = async (favourited) => {
+		await fetch('/api/stats', {
+			method: 'POST',
+			body: JSON.stringify({
+				videoId,
+				favourited,
+			}),
+			headers: {
+				'Content-Type': 'application/json',
+			},
+		})
+	}
+	const handleToggleLike = async () => {
+		const val = !toggleLike
+		setToggleLike(val)
+		const favourited = val ? 2 : 0
+		await runRatingService(favourited)
+		if (toggleDislike) {
+			setToggleDislike(!toggleDislike)
+		}
 	}
 
-	const handleToggelDislike = () => {
+	const handleToggelDislike = async () => {
+		const val = !toggleDislike
 		setToggleDislike(!toggleDislike)
-		setToggleLike(toggleDislike)
+		const favourited = val ? 1 : 0
+		await runRatingService(favourited)
+		if (toggleLike) {
+			setToggleLike(!toggleLike)
+		}
 	}
 
 	return (
@@ -71,7 +120,7 @@ const Video = ({ video }) => {
 					height='360'
 					className={styles.videoPlayer}
 					src={`https://www.youtube.com/embed/${videoId}?autoplay=0&origin=http://example.com&controls=0&rel=0`}
-					frameborder='0'
+					frameBorder='0'
 				></iframe>
 
 				<div className={styles.likeDislikeBtnWrapper}>

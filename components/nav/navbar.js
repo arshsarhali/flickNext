@@ -11,6 +11,7 @@ const NavBar = () => {
 
 	const [showDropDown, setShowDropDown] = useState(false)
 	const [username, setUsername] = useState('')
+	const [didToken, setDidToken] = useState('')
 
 	useEffect(() => {
 		const getUsername = async () => {
@@ -20,6 +21,7 @@ const NavBar = () => {
 
 				if (email) {
 					setUsername(email)
+					setDidToken(didToken)
 				}
 			} catch (err) {
 				console.log('error retriving username', err)
@@ -31,11 +33,19 @@ const NavBar = () => {
 
 	const handleSignOut = async (e) => {
 		e.preventDefault()
+
 		try {
-			await magic.user.logout()
-			router.push('/login')
-		} catch (err) {
-			console.error('Failed to logout', err)
+			const response = await fetch('/api/logout', {
+				method: 'POST',
+				headers: {
+					Authorization: `Bearer ${didToken}`,
+					'Content-Type': 'application/json',
+				},
+			})
+
+			const res = await response.json()
+		} catch (error) {
+			console.error('Error logging out', error)
 			router.push('/login')
 		}
 	}

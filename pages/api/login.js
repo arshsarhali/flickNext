@@ -28,15 +28,14 @@ export default async function login(req, res) {
 			const isNewUserQuer = await isNewUser(token, metadata.issuer)
 
 			isNewUserQuer && (await createNewUser(token, metadata))
-			const setCookie = setTokenCookie(token, res)
-			console.log(setCookie)
+			setTokenCookie(token, res)
 
-			res.send({ done: true })
+			res.status(200).json({ done: true })
 		} catch (err) {
 			console.log('Something went wrong', err)
-			res.status(500).send('something went wrong')
+			res.status(500).json({ message: 'something went wrong' })
 		}
 	} else {
-		res.send('wrong method')
+		res.status(500).json({ message: 'wrong method' })
 	}
 }

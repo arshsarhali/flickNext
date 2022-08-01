@@ -5,15 +5,35 @@ import styles from '../styles/Home.module.css'
 import Banner from '../components/banner/banner'
 import NavBar from '../components/nav/navbar'
 import SectionCard from '../components/card/section-cards'
-import { getVideos, getPopularVideos } from '../lib/videos'
+import { getVideos, getPopularVideos, watchItAgain } from '../lib/videos'
+import redirectUser from '../utils/redirectUser'
 
-export async function getServerSideProps() {
+export async function getServerSideProps(context) {
+	const { userId, token } = await redirectUser(context)
+
+	if (!userId && !token) {
+		return {
+			props: {},
+			redirect: {
+				destination: '/login',
+				permanent: false,
+			},
+		}
+	}
+
+	const watchItAgainVideos = await watchItAgain(userId, token)
 	const netflixVideos = await getVideos('netflix')
 	const technologyVideos = await getVideos('technology')
 	const trailerVideos = await getVideos('movie trailer')
 	const popularVideos = await getPopularVideos()
 	return {
-		props: { netflixVideos, technologyVideos, trailerVideos, popularVideos },
+		props: {
+			netflixVideos,
+			technologyVideos,
+			trailerVideos,
+			popularVideos,
+			watchItAgainVideos,
+		},
 	}
 }
 
@@ -22,6 +42,7 @@ export default function Home({
 	technologyVideos,
 	trailerVideos,
 	popularVideos,
+	watchItAgainVideos = [],
 }) {
 	return (
 		<div className={styles.container}>
@@ -46,6 +67,11 @@ export default function Home({
 						title='New on Netflix'
 						videos={netflixVideos}
 						size='large'
+					/>
+					<SectionCard
+						title='Watch it again'
+						videos={watchItAgainVideos}
+						size='small'
 					/>
 					<SectionCard
 						title='Technology'
